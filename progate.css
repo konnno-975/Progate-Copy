@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: rgba(34, 49, 52, 0.9);
+}
+
+.headerLogo {
+  float: left;
+}
+.headerLogo img {
+  display: block;
+  padding: 20px;
+  block-size: 25px;
+}
+
+.headerRight ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+.headerRight li {
+  float: right;
+  color: white;
+  padding: 20px 20px;
+}
+.headerRight li:hover {
+  cursor: pointer;
+  background-color: rgba(147, 166, 170, 0.9);
+}
+
+.topPage {
+  background-image: url(image/top.png);
+  background-size: cover;
+  height: 700px;
+  text-align: center;
+  color: white;
+}
+.topPage h1 {
+  padding-top: 120px;
+  margin-bottom: 40px;
+  letter-spacing: 5px;
+}
+.topPage h4 {
+  margin-bottom: 30px;
+}
+.topPage a {
+  text-decoration: none;
+}
+.topPage .signUp {
+  color: white;
+  background-color: green;
+}
+.topPage .facebook {
+  color: white;
+  background-color: blue;
+}
+.topPage .twitter {
+  color: white;
+  background-color: aqua;
+}
+
+.btn {
+  display: inline-block;
+  height: 30px;
+  padding: 15px;
+}
+
+.mainPage {
+  background-color: antiquewhite;
+  overflow: hidden;
+}
+.mainPage h2 {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.mainPage .lesson {
+  width: 20%;
+  float: left;
+  padding-left: 60px;
+  position: relative;
+}
+.mainPage .lesson h4 {
+  position: absolute;
+  top: 90px;
+  left: 100px;
+  color: white;
+}
+.mainPage .lesson p {
+  font-size: 10px;
+}
+.mainPage p {
+  display: inline-block;
+}
+
+.subPage {
+  text-align: center;
+  height: 500px;
+}
+.subPage h2 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.subPage .button {
+  margin-top: 100px;
+  background-color: aquamarine;
+}
+
+footer {
+  border-top: 2px solid #000;
+}
+footer img {
+  display: block;
+  padding: 20px;
+  block-size: 30px;
+}
+
+/*# sourceMappingURL=progate.css.map */

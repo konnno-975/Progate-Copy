@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+// ヘッダーのcss
+header {
+    z-index: 10;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(34,49,52,0.9);
+}
+.headerLogo {
+    float: left;
+    img {
+        display: block;
+        padding: 20px;
+        block-size: 25px;
+    }
+}
+.headerRight {
+    ul {
+        overflow: hidden;
+        list-style-type: none;
+    }
+    li {
+        float: right;
+        color: white;
+        padding: 20px 20px;
+        &:hover {
+            cursor : pointer;
+            background-color:  rgba(147, 166, 170, 0.9);
+        }
+    }
+}
+
+//トップページのcss
+.topPage {
+    background-image: url(image/top.png);
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    color: white;
+    h1 {
+        padding-top: 120px;
+        margin-bottom: 40px;
+        letter-spacing: 5px;
+    }
+    h4 {
+        margin-bottom: 30px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .signUp {
+        color: white;
+        background-color: green;
+    }
+    .facebook {
+        color: white;
+        background-color: blue;
+    }
+    .twitter {
+        color: white;
+        background-color: aqua;
+    }
+}
+//ボタンのcss
+.btn {
+    display: inline-block;
+    height: 30px;
+    padding: 15px;
+}
+
+//メインページのcss
+
+.mainPage {
+    background-color: antiquewhite;
+    overflow: hidden;
+    h2 {
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    .lesson {
+        width: 20%;
+        float: left;
+        padding-left: 60px;
+        position: relative;
+        h4 {
+            position: absolute;
+            top: 90px;
+            left: 100px;
+            color: white;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+    p {
+        display: inline-block;
+    }
+}
+//サブページのcss
+
+.subPage {
+    text-align: center;
+    height: 500px;
+    h2 {
+        padding-top: 100px;
+        padding-bottom: 20px;
+    }
+    .button {
+        margin-top: 100px;
+        background-color: aquamarine;
+    }
+}
+
+// フッターのcss
+footer {
+    border-top: 2px solid #000;
+    img {
+        display: block;
+        padding: 20px;
+        block-size: 30px;
+    }
+}
