@@ -8,15 +8,15 @@ header {
     z-index: 10;
     position: fixed;
     width: 100%;
-    height: 60px;
+    height: 65px;
     background-color: rgba(34,49,52,0.9);
 }
 .headerLogo {
     float: left;
     img {
         display: block;
-        padding: 20px;
-        block-size: 25px;
+        padding: 18px;
+        block-size: 23px;
     }
 }
 .headerRight {
@@ -27,7 +27,7 @@ header {
     li {
         float: right;
         color: white;
-        padding: 20px 20px;
+        padding: 20px;
         &:hover {
             cursor : pointer;
             background-color:  rgba(147, 166, 170, 0.9);
@@ -43,15 +43,19 @@ header {
     text-align: center;
     color: white;
     h1 {
-        padding-top: 120px;
-        margin-bottom: 40px;
+        padding-top: 210px;
+        margin-bottom: 30px;
         letter-spacing: 5px;
+        font-size: 45px;
     }
     h4 {
-        margin-bottom: 30px;
+        margin-bottom: 35px;
     }
     a {
         text-decoration: none;
+    }
+    p {
+        margin: 20px 0;
     }
     .signUp {
         color: white;
@@ -60,6 +64,7 @@ header {
     .facebook {
         color: white;
         background-color: blue;
+        margin-right: 10px;
     }
     .twitter {
         color: white;
@@ -69,51 +74,71 @@ header {
 //ボタンのcss
 .btn {
     display: inline-block;
-    height: 30px;
-    padding: 15px;
+    height: 20px;
+    padding: 10px 20px;
 }
 
 //メインページのcss
 
 .mainPage {
-    background-color: antiquewhite;
+    background-color: #F7F7F7;
     overflow: hidden;
+    padding-bottom: 60px;
     h2 {
         text-align: center;
-        padding-top: 100px;
+        padding-top: 95px;
         padding-bottom: 50px;
+        color: gray;
+    }
+    .lessonAll {
+        margin-left: 120px;
     }
     .lesson {
         width: 20%;
         float: left;
-        padding-left: 60px;
         position: relative;
+        margin-right: 50px;
         h4 {
             position: absolute;
-            top: 90px;
-            left: 100px;
+            top: 34%;
+            left: 33%;
             color: white;
         }
+        img {
+            padding: 30px;
+        }
         p {
-            font-size: 10px;
+            padding-top: 10px;
+            font-size: 13px;
         }
     }
-    p {
-        display: inline-block;
-    }
+    // p {
+    //     display: inline-block;
+    // }
 }
 //サブページのcss
 
 .subPage {
     text-align: center;
-    height: 500px;
-    h2 {
-        padding-top: 100px;
+    padding-bottom: 80px;
+    .subContanier {
+        padding-top: 80px;
+    }
+    h3 {        
         padding-bottom: 20px;
+        font-size: 24px;
     }
     .button {
-        margin-top: 100px;
+        margin-top: 50px;
+        padding: 20px 30px;
+        box-shadow: 0 5px rgba(147, 166, 170, 0.9);
         background-color: aquamarine;
+        &:active {
+            box-shadow: none;
+        }
+        &:hover {
+            cursor: pointer;
+        }
     }
 }
 
@@ -123,6 +148,10 @@ footer {
     img {
         display: block;
         padding: 20px;
-        block-size: 30px;
+        block-size: 25px;
+    }
+    p {
+        font-size: 5px;
+        padding: 5px;
     }
 }

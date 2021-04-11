@@ -7,7 +7,7 @@ header {
   z-index: 10;
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 65px;
   background-color: rgba(34, 49, 52, 0.9);
 }
 
@@ -16,8 +16,8 @@ header {
 }
 .headerLogo img {
   display: block;
-  padding: 20px;
-  block-size: 25px;
+  padding: 18px;
+  block-size: 23px;
 }
 
 .headerRight ul {
@@ -27,7 +27,7 @@ header {
 .headerRight li {
   float: right;
   color: white;
-  padding: 20px 20px;
+  padding: 20px;
 }
 .headerRight li:hover {
   cursor: pointer;
@@ -42,15 +42,19 @@ header {
   color: white;
 }
 .topPage h1 {
-  padding-top: 120px;
-  margin-bottom: 40px;
+  padding-top: 210px;
+  margin-bottom: 30px;
   letter-spacing: 5px;
+  font-size: 45px;
 }
 .topPage h4 {
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 .topPage a {
   text-decoration: none;
+}
+.topPage p {
+  margin: 20px 0;
 }
 .topPage .signUp {
   color: white;
@@ -59,6 +63,7 @@ header {
 .topPage .facebook {
   color: white;
   background-color: blue;
+  margin-right: 10px;
 }
 .topPage .twitter {
   color: white;
@@ -67,49 +72,66 @@ header {
 
 .btn {
   display: inline-block;
-  height: 30px;
-  padding: 15px;
+  height: 20px;
+  padding: 10px 20px;
 }
 
 .mainPage {
-  background-color: antiquewhite;
+  background-color: #F7F7F7;
   overflow: hidden;
+  padding-bottom: 60px;
 }
 .mainPage h2 {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 95px;
   padding-bottom: 50px;
+  color: gray;
+}
+.mainPage .lessonAll {
+  margin-left: 120px;
 }
 .mainPage .lesson {
   width: 20%;
   float: left;
-  padding-left: 60px;
   position: relative;
+  margin-right: 50px;
 }
 .mainPage .lesson h4 {
   position: absolute;
-  top: 90px;
-  left: 100px;
+  top: 34%;
+  left: 33%;
   color: white;
 }
-.mainPage .lesson p {
-  font-size: 10px;
+.mainPage .lesson img {
+  padding: 30px;
 }
-.mainPage p {
-  display: inline-block;
+.mainPage .lesson p {
+  padding-top: 10px;
+  font-size: 13px;
 }
 
 .subPage {
   text-align: center;
-  height: 500px;
+  padding-bottom: 80px;
 }
-.subPage h2 {
-  padding-top: 100px;
+.subPage .subContanier {
+  padding-top: 80px;
+}
+.subPage h3 {
   padding-bottom: 20px;
+  font-size: 24px;
 }
 .subPage .button {
-  margin-top: 100px;
+  margin-top: 50px;
+  padding: 20px 30px;
+  box-shadow: 0 5px rgba(147, 166, 170, 0.9);
   background-color: aquamarine;
+}
+.subPage .button:active {
+  box-shadow: none;
+}
+.subPage .button:hover {
+  cursor: pointer;
 }
 
 footer {
@@ -118,7 +140,11 @@ footer {
 footer img {
   display: block;
   padding: 20px;
-  block-size: 30px;
+  block-size: 25px;
+}
+footer p {
+  font-size: 5px;
+  padding: 5px;
 }
 
 /*# sourceMappingURL=progate.css.map */
